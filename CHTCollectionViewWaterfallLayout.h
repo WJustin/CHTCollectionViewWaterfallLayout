@@ -315,6 +315,9 @@ extern NSString *const CHTCollectionElementKindSectionFooter;
  */
 @property (nonatomic, assign) CGFloat minimumContentHeight;
 
+
+@property (nonatomic, strong, readonly) NSMutableDictionary *headersAttribute;
+
 /**
  *  @brief The calculated width of an item in the specified section.
  *  @discussion
